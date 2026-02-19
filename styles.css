@@ -117,6 +117,7 @@ section {
     transition: height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .navbar.scrolled .navbar-container {
     height: 112px;
 }
@@ -162,7 +163,6 @@ section {
 
 .navbar-actions {
     display: flex;
-    align-items: center;
     gap: 48px;
     margin-left: auto;
 }
@@ -2832,3 +2832,4 @@ body.menu-open {
         padding: 28px;
     }
 }
+
