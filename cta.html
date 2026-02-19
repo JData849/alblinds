@@ -1,0 +1,232 @@
+<section class="final-cta" id="contact">
+  <div class="final-cta-bg-grid"></div>
+
+  <div class="final-cta-container">
+    <div class="final-cta-content">
+      <!-- Left side - Contact info -->
+
+      <div class="final-cta-left">
+        <div class="final-cta-label">Get in Touch</div>
+
+        <h2 class="final-cta-title">
+          Let's Create
+
+          <span>Something Beautiful</span>
+        </h2>
+
+        <p class="final-cta-description">
+          Whether you're ready to book or simply have questions, we're
+          here to help. We are a new business, led by a team with 15 years
+          of fitting experience, and we respond promptly.
+        </p>
+
+        <div class="final-cta-contact-methods">
+          <div class="contact-method">
+            <div class="contact-method-icon">&#128222;&#65039;</div>
+
+            <div class="contact-method-info">
+              <div class="contact-method-label">Call Us</div>
+
+              <div class="contact-method-value">
+                <a href="tel:01942934002">01942 934002</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="contact-method-icon">&#9993;&#65039;</div>
+
+            <div class="contact-method-info">
+              <div class="contact-method-label">Email Us</div>
+
+              <div class="contact-method-value">
+                <a href="mailto:info@atherleighblinds.com">info@atherleighblinds.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <div class="contact-method-icon">&#128205;</div>
+
+            <div class="contact-method-info">
+              <div class="contact-method-label">Service Area</div>
+
+              <div class="contact-method-value">
+                Leigh, Atherton &amp; Golborne
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="guarantee-badges">
+          <div class="guarantee-badge">
+            <div class="guarantee-icon">&#9201;</div>
+
+            <div class="guarantee-text">24hr Response<br />Guarantee</div>
+          </div>
+
+          <div class="guarantee-badge">
+            <div class="guarantee-icon">&#128274;</div>
+
+            <div class="guarantee-text">100% Secure<br />& Private</div>
+          </div>
+
+          <div class="guarantee-badge">
+            <div class="guarantee-icon">&#10003;</div>
+
+            <div class="guarantee-text">
+              No Obligation<br />Consultation
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right side - Form -->
+
+      <div class="final-cta-right">
+        <div class="form-container">
+          <h3 class="form-title">Request Your Free Consultation</h3>
+
+          <p class="form-subtitle">
+            Fill in your details and we'll be in touch within 24 hours
+          </p>
+
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            action="/"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+
+            <div style="display:none">
+              <label>Don't fill this out: <input name="bot-field" /></label>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="first-name">First Name</label>
+
+                <input
+                  type="text"
+                  class="form-input"
+                  id="first-name"
+                  name="first-name"
+                  placeholder="John"
+                  autocomplete="given-name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="last-name">Last Name</label>
+
+                <input
+                  type="text"
+                  class="form-input"
+                  id="last-name"
+                  name="last-name"
+                  placeholder="Smith"
+                  autocomplete="family-name"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="email">Email Address</label>
+
+                <input
+                  type="email"
+                  class="form-input"
+                  id="email"
+                  name="email"
+                  placeholder="john@email.com"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone Number</label>
+
+                <input
+                  type="tel"
+                  class="form-input"
+                  id="phone"
+                  name="phone"
+                  placeholder="07123 456789"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="postcode">Postcode</label>
+
+              <input
+                type="text"
+                class="form-input"
+                id="postcode"
+                name="postcode"
+                placeholder="WN8 6AB"
+                autocomplete="postal-code"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="interest">Interested In</label>
+
+              <select class="form-select" id="interest" name="interest" required>
+                <option value="">Select blind type...</option>
+                <option value="roller">Roller Blinds</option>
+                <option value="venetian">Venetian Blinds</option>
+                <option value="roman">Roman Blinds</option>
+                <option value="vertical">Vertical Blinds</option>
+                <option value="unsure">Not Sure Yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="details">Additional Information</label>
+
+              <textarea
+                class="form-textarea"
+                id="details"
+                name="details"
+                rows="4"
+                placeholder="Tell us about your project, number of windows, preferred timeframe, etc."
+              ></textarea>
+            </div>
+
+            <div class="form-checkbox-group">
+              <input
+                type="checkbox"
+                class="form-checkbox"
+                id="consent"
+                name="consent"
+                required
+              />
+
+              <label for="consent" class="form-checkbox-label">
+                I agree to receive communications about my consultation
+              </label>
+            </div>
+
+            <button type="submit" class="form-submit">Book Free Consultation</button>
+
+            <p class="form-note">
+              By submitting this form, you agree to our privacy policy.<br />
+              We respect your privacy and never share your information.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
