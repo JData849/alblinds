@@ -2154,6 +2154,62 @@ body.menu-open {
     line-height: 1.6;
 }
 
+/* CTA popup */
+.cta-popup {
+    position: fixed;
+    inset: 0;
+    display: none;
+    place-items: center;
+    z-index: 3000;
+}
+
+.cta-popup.is-visible {
+    display: grid;
+}
+
+.cta-popup-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 29, 45, 0.6);
+    backdrop-filter: blur(6px);
+}
+
+.cta-popup-card {
+    position: relative;
+    width: min(90vw, 420px);
+    background: var(--ivory-50);
+    border: 1px solid rgba(15, 29, 45, 0.15);
+    border-radius: 16px;
+    padding: 28px 32px 30px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(15, 29, 45, 0.35);
+    z-index: 1;
+}
+
+.cta-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    border: none;
+    background: transparent;
+    color: var(--navy-900);
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.cta-popup-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cta-popup-text {
+    font-size: 14px;
+    color: #6f7f90;
+    line-height: 1.5;
+}
+
 /* Guarantee badges */
 .guarantee-badges {
     display: flex;
