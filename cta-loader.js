@@ -58,6 +58,14 @@
           body: new URLSearchParams(formData).toString(),
         })
           .then(() => {
+            if (typeof window.gtag === "function") {
+              window.gtag("event", "conversion", {
+                send_to: "AW-17971503408/TXeqCIOLyf0bELDCvflC",
+                value: 1.0,
+                currency: "GBP",
+              });
+            }
+
             form.reset();
             openPopup();
           })
